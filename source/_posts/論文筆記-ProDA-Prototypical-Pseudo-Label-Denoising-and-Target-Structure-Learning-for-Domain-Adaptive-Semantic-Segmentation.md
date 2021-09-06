@@ -23,7 +23,7 @@ categories:
 
 本篇會出現的一些常見的專有名詞會在這裡介紹，筆者一開始在讀論文時常常被這些專有名詞搞到很挫折，希望能透過淺白的講解讓大家快速進入狀況，如果是熟悉這領域的大大可以直接跳過這段～
 
-如果是對 UDA 和 semantic segmentation 不了解的讀者，可以看看[這篇](http://localhost:4000/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/#domain-knowledge)。
+如果是對 UDA 和 semantic segmentation 不了解的讀者，可以看看[這篇](/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/#domain-knowledge)。
 
 {% note info no-icon %}
 ### Pseudo Label
