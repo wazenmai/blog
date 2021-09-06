@@ -4,7 +4,6 @@ date: 2021-08-17 23:54:02
 cover: /assets/posts/Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/model.png
 description: 這篇是第一個把 "model adaptation" 這樣的方法用在 UDA semantic segmentation 領域的論文，也就是在沒有 source data 和 source label，但是有 target data 的情況下去改善 model 在 target domain 上的表現。
 tags:
-    - Machine Learning
     - Semantic Segmentation
     - UDA
 categories:
@@ -18,7 +17,7 @@ katex: true
 
 # Domain Knowledge
 
-本篇會出現的一些此領域常見的專有名詞會在這裡介紹，筆者一開始在讀論文時常常被這些專有名詞搞到很挫折，希望能透過盡量淺白的講解讓大家快速進入狀況，如果是熟悉這領域的大大可以直接跳過這段～
+本篇會出現的一些常見的專有名詞會在這裡介紹，筆者一開始在讀論文時常常被這些專有名詞搞到很挫折，希望能透過淺白的講解讓大家快速進入狀況，如果是熟悉這領域的大大可以直接跳過這段～
 
 {% note info no-icon %}
 ### Semantic Segmentation
@@ -48,7 +47,7 @@ Paper  link: http://publications.idiap.ch/downloads/papers/2021/Sivaprasad_CVPR_
 Github link: https://github.com/idiap/model-uncertainty-for-adaptation
 {% endnote %}
 
-此篇論文最主要的貢獻有三點：
+此篇論文主要的貢獻有三點：
 1. 是第一個把 *model adaptation* 應用在 *UDA semantic segmentation* 上的論文。
 2. 由於沒有 source data 可以重複訓練，作者提出了一些方法來降低 model 預測的不確定性，包含運用 uncertainty loss, entropy regularizer 和 pseudo-labeling 的技巧。
 3. 應用此方法，可以達到跟有用 source data 的 model 們差不多的表現。（註：此篇論文挑選的 baseline 均是 2019 前的方法）
@@ -172,7 +171,7 @@ $$L=L_{PL}+\lambda_{ent}L_{ent}+\lambda_{un}L_{un}$$
 ### Cityscapes - NTHU Crosscity
 ![](/assets/posts/Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/CC_NTHU.png)
 
-# Summary
+# Conclusion
 筆者在這篇文章中帶大家看了在沒有 source data 的情況下要如何做 UDA segmentation，也把此論文提出的三個主要的方法講解過一遍，希望可以讓大家更了解這個領域的作品。這篇論文離 SOTA 的分數還有一段距離，筆者相信可以透過應用現有的 UDA 方法到 model adaptation 的問題中來得到更好的 performance，例如應用 consistency training 或是加入 data augmentation 的方法等等，就等大家來實現啦！
 
 Reference:
