@@ -21,12 +21,12 @@ katex: true
 
 {% note info no-icon %}
 ### Semantic Segmentation
-Semantic Segmentation 可以看成是一種 pixel classification。傳統我們都給 model 一張圖，叫它分辨那是人還是車子，現在我們是叫 model 區分一張圖的每個 pixel 分別是屬於什麼類別，常用於街景分析（區分哪些是行人哪些車子哪裡是路）。常見的 semantic segmentation datasets 為 Cityscapes, PASCAL VOC 和 ADE20K。
+Semantic Segmentation 可以看成是一種 pixel classification。傳統給 model 一張圖，叫它分辨那是人還是車子，現在是叫 model 區分一張圖的每個 pixel 分別是屬於什麼類別，常用於街景分析（區分哪些是行人哪些車子哪裡是路）。常見的 semantic segmentation datasets 為 Cityscapes, PASCAL VOC 和 ADE20K。
 {% endnote %}
 
 {% note info no-icon %}
 ### Unsupervised Domain Adaptation (UDA)
-UDA 就是在有 source domain data + source domain label + target domain data 的情況下，想辦法利用在 source domain 學到的資訊應用到 target domain 上，讓 model 在 target domain 上也有不錯的表現。
+UDA 就是在有 **source domain data + source domain label + target domain data** 的情況下，想辦法利用在 source domain 學到的資訊應用到 target domain 上，讓 model 在 target domain 上也有不錯的表現。
 
 會出現這樣的領域主要就是因為 target domain 的 label 需要花很久的時間才能標好，拿這篇的 semantic segmentation 的 task 來說好了，標好一張現實世界的 Cityscapes 的圖平均需要 90 分鐘。相反的 source domain 會相對容易標記，例如本篇用的 GTA5 是遊戲生成的圖片，平均 7 秒就能標好一張圖，而這兩個 datasets 會出現的類別有 19 個是重疊的，例如天空、汽車、行人等等。
 
@@ -68,16 +68,15 @@ Github link: https://github.com/idiap/model-uncertainty-for-adaptation
 
 我們知道 domain adaptation 是指把 source domain 學習到的東西遷移到 target domain，而這時我們擁有的資源有來自 source domain 的 data 跟 label，以及 target domain 的 data，希望藉由這些來讓 model 自己學習到 target domain 的 label。
 
-model adaptation 要做的目標跟 domain adaptation 完全一樣，只差在現在我們**沒有 source data，也沒有 source label，但是有一個事先在 source domain 訓練完成的 pre-trained model 以及 target data**。問題來了，為什麼好端端的 source data 不用，要故意創造一個這麼艱難的問題呢？原因就在於當我們想處理真實世界的 UDA 問題時，source data 不一定會開放給大家使用，例如醫學影像的訓練，那些資料都包含了病人隱私問題，有些時候沒辦法開放大家使用，但 model 就沒有所謂隱私權問題，只是一堆參數罷了，這樣只拿 model 做更動的研究，被作者稱作 model adaptation（之後以 MA 代稱）。
+model adaptation 要做的目標跟 domain adaptation 完全一樣，只差在現在我們**沒有 source data，也沒有 source label，但是有一個事先在 source domain 訓練完成的 pre-trained model 以及 target data**。問題來了，為什麼好端端的 source data 不用，要故意創造一個這麼艱難的問題呢？原因就在於處理真實世界的 UDA 問題時，source data 不一定會開放給大家使用，例如醫學影像的訓練，那些資料都包含了病人隱私問題，有些時候沒辦法開放大家使用，但 model 就沒有所謂隱私權問題，只是一堆參數罷了，這樣只拿 model 做更動的研究，被作者稱作 model adaptation（之後以 MA 代稱）。
 
 這兩種類別都屬於遷移學習（transfer learning）的一種。
 
-
 ## Formal Problem
 
-現在我們把 MA 的問題用正式的符號來表示一次，$\mathcal{X}$ 代表輸入、$\mathcal{Y}$ 代表輸出、$\mathcal{S}$ 代表 source domain、$\mathcal{T}$ 代表 target doamin。所以 $X_S$ 就是在 source domain 的輸入，包含 data 跟 label，而 $X_T$ 則是指 target domain 上的 data。
+現在把 MA 的問題用正式的符號來表示，$\mathcal{X}$ 代表輸入、$\mathcal{Y}$ 代表輸出、$\mathcal{S}$ 代表 source domain、$\mathcal{T}$ 代表 target doamin。所以 $X_S$ 就是在 source domain 的輸入，包含 data 跟 label，而 $X_T$ 則是指 target domain 上的 data。
 
-這裡以 $f$ 來代表我們的模型架構，而且 $f(x, \theta_S)\equiv f_S(x)$，也就是說此處的模型就是那個先在 source domain 上的 pre-trained model，他們的架構是完全一樣的。這個 $f$ 是由一個 feature extractor network (代號 $g$，這裏採用 ResNet-101) 和一個 ASPP decoder (代號 $h$) 組成的。
+這裡以 $f$ 來代表整個模型架構，而且 $f(x, \theta_S)\equiv f_S(x)$，也就是說此處的模型就是那個先在 source domain 上的 pre-trained model，他們的架構是完全一樣的。這個 $f$ 是由一個 feature extractor network (代號 $g$，這裏採用 ResNet-101) 和一個 ASPP decoder (代號 $h$) 組成的。
 
 {% note default no-icon %}
 **Atrous Spatial Pyramid Pooling (ASPP)**
