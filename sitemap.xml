@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.wazenmai.com/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-ProDA-Prototypical-Pseudo-Label-Denoising-and-Target-Structure-Learning-for-Domain-Adaptive-Semantic-Segmentation/</loc>
+    <loc>https://blog.wazenmai.com/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6-Arc-Browser/</loc>
     
-    <lastmod>2021-09-07</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.wazenmai.com/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/</loc>
-    
-    <lastmod>2021-09-07</lastmod>
+    <lastmod>2022-11-29</lastmod>
     
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/about/index.html</loc>
     
-    <lastmod>2021-08-26</lastmod>
+    <lastmod>2022-11-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.wazenmai.com/music/index.html</loc>
+    
+    <lastmod>2021-09-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.wazenmai.com/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/</loc>
+    
+    <lastmod>2021-09-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.wazenmai.com/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98-ProDA-Prototypical-Pseudo-Label-Denoising-and-Target-Structure-Learning-for-Domain-Adaptive-Semantic-Segmentation/</loc>
+    
+    <lastmod>2021-09-11</lastmod>
     
   </url>
   
@@ -29,32 +43,32 @@
     
   </url>
   
-  <url>
-    <loc>https://blog.wazenmai.com/music/index.html</loc>
-    
-    <lastmod>2021-08-15</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>https://blog.wazenmai.com/</loc>
-    <lastmod>2021-09-07</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://blog.wazenmai.com/tags/Recommandation/</loc>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.wazenmai.com/tags/Semantic-Segmentation/</loc>
-    <lastmod>2021-09-07</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/tags/UDA/</loc>
-    <lastmod>2021-09-07</lastmod>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,7 +77,14 @@
   
   <url>
     <loc>https://blog.wazenmai.com/categories/Machine-Learning/</loc>
-    <lastmod>2021-09-07</lastmod>
+    <lastmod>2022-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.wazenmai.com/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/</loc>
+    <lastmod>2022-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
