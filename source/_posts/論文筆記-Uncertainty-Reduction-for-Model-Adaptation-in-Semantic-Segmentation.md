@@ -1,7 +1,8 @@
 ---
-title: '[論文筆記] Uncertainty Reduction for Model Adaptation in Semantic Segmentation'
+title: ［論文筆記］ Uncertainty Reduction for Model Adaptation in Semantic Segmentation
 date: 2021-08-17 23:54:02
 cover: /assets/posts/Uncertainty-Reduction-for-Model-Adaptation-in-Semantic-Segmentation/model.png
+top_img: /assets/top_img.png
 description: 這篇是第一個把 "model adaptation" 這樣的方法用在 UDA semantic segmentation 領域的論文，也就是在沒有 source data 和 source label，但是有 target data 的情況下去改善 model 在 target domain 上的表現。
 tags:
     - Semantic Segmentation

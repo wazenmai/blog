@@ -1,10 +1,10 @@
 ---
 title: >-
-  [論文筆記] Prototypical Pseudo Label Denoising and Target Structure Learning
-  for Domain Adaptive Semantic Segmentation
+  ［論文筆記］Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation
 katex: true
 date: 2021-08-26 22:35:42
 cover: /assets/posts/ProDA/ProDA.png
+top_img: /assets/top_img.png
 description: >-
   2021 UDA segmentation SOTA. 
   GTA - Cityscapes 57.5 mIoU. SYNTHIA - Cityscapes 55.5 / 62.0 mIoU.
