@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.wazenmai.com/categories/index.html</loc>
+    <loc>https://blog.wazenmai.com/about/index.html</loc>
     
-    <lastmod>2023-01-26</lastmod>
+    <lastmod>2023-02-25</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.wazenmai.com/about/index.html</loc>
+    <loc>https://blog.wazenmai.com/categories/index.html</loc>
     
     <lastmod>2023-01-26</lastmod>
     
@@ -46,7 +46,7 @@
 
   <url>
     <loc>https://blog.wazenmai.com/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,21 +54,21 @@
   
   <url>
     <loc>https://blog.wazenmai.com/tags/Recommandation/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/tags/Semantic-Segmentation/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/tags/UDA/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -77,14 +77,14 @@
   
   <url>
     <loc>https://blog.wazenmai.com/categories/Machine-Learning/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/</loc>
-    <lastmod>2023-02-24</lastmod>
+    <lastmod>2023-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
