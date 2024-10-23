@@ -46,7 +46,7 @@
 
   <url>
     <loc>https://blog.wazenmai.com/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,21 +54,21 @@
   
   <url>
     <loc>https://blog.wazenmai.com/tags/Recommandation/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/tags/Semantic-Segmentation/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.wazenmai.com/tags/UDA/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -76,15 +76,15 @@
 
   
   <url>
-    <loc>https://blog.wazenmai.com/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <loc>https://blog.wazenmai.com/categories/Machine-Learning/</loc>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.wazenmai.com/categories/Machine-Learning/</loc>
-    <lastmod>2024-10-15</lastmod>
+    <loc>https://blog.wazenmai.com/categories/%E5%A5%BD%E7%89%A9%E6%8E%A8%E8%96%A6/</loc>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
