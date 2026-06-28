@@ -8,8 +8,8 @@ top_img: /assets/peach.png
 
 Hi~ I'm Bronwin Chen. 
 
-I am a master student at National Tsing Hua University in Computer Science.
+I got my master degree at National Tsing Hua University in Computer Science.
 
-My research interests broadly lie in music information retrieval, natural language processing, computer vision and reinforcement learning. Recently I'm working on model compression of Transformer models.
+My research interests broadly lie in the fields of multimodal (image, text, and music) AI, model compression, and explainable AI. Alongside my background spanning full-stack iOS & Android mobile app development and C++/Python inference pipelines, I have a first-author paper accepted at ICML 2025 exploring Mixture-of-Experts (MoE) LLM compression. Currently, I apply this expertise to develop agent harnesses and advance text-to-speech models.
 
-My resume link: [resume.pdf](/assets/resume.pdf)
+My resume link: [resume.pdf](/assets/CV.pdf)

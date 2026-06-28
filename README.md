@@ -1,2 +1,2 @@
 - Run in local server: `hexo serve`
-- Deploy the website: `hexo generate -d`
+- Deploy the website: `hexo clean` -> `hexo generate -d`
